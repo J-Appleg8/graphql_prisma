@@ -16,7 +16,7 @@ services:
             host: ec2-54-157-16-196.compute-1.amazonaws.com
             port: '5432'
             database: d8je60r13g4imj
-            schema: schema.graphql
+            ssl: true
             user: bnopbhntvljhfs
             password: a33e8bad9b3116d0d9e8a13b092edb9c53eae35ad70f26389a1799b7b6ee8f9c
             migrations: true
